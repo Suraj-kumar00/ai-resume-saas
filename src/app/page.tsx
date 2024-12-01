@@ -19,7 +19,7 @@ export function HomePage() {
 
       <div className="top-16 px-4">
         <h1 className="text-5xl md:text-5xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-24 relative z-20 py-6 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
-          Build amazing websites <br /> at <Cover>warp speed</Cover>
+          Build amazing Resume&apos;s <br /> <Cover>upload, edit & print</Cover>
         </h1>
       </div>
 
