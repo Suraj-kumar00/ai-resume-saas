@@ -82,8 +82,6 @@ To use Kestra for managing complex workflows like resume generation, scoring, an
    - Example workflow:
 
      ```yaml
-     yaml
-     Copy code
      id: generate-resume
      namespace: resumegen
      tasks:
