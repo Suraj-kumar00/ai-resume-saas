@@ -5,6 +5,7 @@ import ShineButton from "@/components/ShineButton";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export function HomePage() {
   return (
@@ -28,9 +29,11 @@ export function HomePage() {
           <p className="text-2xl font-medium mb-6 text-neutral-700 dark:text-white">
             Make AI Resume Instantly
           </p>
-          <Button className="bg-gradient-to-r from-gray-400 to-cyan-700 hover:from-cyan-500 hover:to-cyan-700">
-            Get Started <ArrowRight className="ml-2 h-4 w-4" />
-          </Button>
+          <Link href="/dashboard">
+            <Button className="bg-gradient-to-r from-gray-400 to-cyan-700 hover:from-cyan-500 hover:to-cyan-700">
+              Get Started <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
         </div>
 
         {/* Resume Screenshot Section with Default Tilt on the Container and Hover Effect */}
